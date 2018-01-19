@@ -3694,7 +3694,7 @@
 			<Spanish>Respawn Móvil</Spanish>
 			<Russian>Мобильный респаун</Russian>
 			<Italian>Respawn Mobile</Italian>
-			<Chinesesimp>机动复活点</Chinesesimp>
+			<Chinesesimp>机动复活载具</Chinesesimp>
 			<Turkish>Mobil respawn</Turkish>
 			<Portuguese>Respawn móvel</Portuguese>
 		</Key>
@@ -5514,7 +5514,7 @@
 			<Original>%1 minutes mobile respawn cooldown left.</Original>
 			<German>%1 Minuten Mobiler Respawn Cooldown übrig.</German>
 			<Italian>Mancano ancora %1 minuti al respawn.</Italian>
-			<Chinesesimp>机动复活点还需要%1分钟冷却。</Chinesesimp>
+			<Chinesesimp>机动复活载具还需要%1分钟冷却。</Chinesesimp>
 			<Portuguese>Falta(m) %1 minuto(s) de tempo de espera do respawn móvel.</Portuguese>
 		</Key>
 		<Key ID="STR_CR_RESISTANCE_KILLMSG">
@@ -5537,6 +5537,15 @@
 			<Italian>Produzione</Italian>
 			<Chinesesimp>生产</Chinesesimp>
 			<Portuguese>Produção</Portuguese>
+		</Key>
+		<!-- Nercon's misc options -->
+		<Key ID="STR_PARAM_MOBILEREDEPLOY">
+			<Original>Redeploy from mobile respawn vehicles</Original>
+			<Chinesesimp>从机动复活载具处重新部署</Chinesesimp>
+		</Key>
+		<Key ID="STR_PARAM_MOBILEREARM">
+			<Original>Rearm(Arsenal) from mobile respawn vehicles</Original>
+			<Chinesesimp>从机动复活载具处获取补给（军火库）</Chinesesimp>
 		</Key>
 	</Package>
 </Project>
