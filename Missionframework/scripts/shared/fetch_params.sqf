@@ -42,6 +42,9 @@ if ( isMultiplayer ) then {
 	KP_liberation_production_debug = ["DebugProduction",0] call bis_fnc_getParamValue;
 	KP_liberation_respawn_cooldown = ["RespawnCooldown",900] call bis_fnc_getParamValue;
 	KP_liberation_clear_cargo = ["ClearCargo",1] call bis_fnc_getParamValue;
+	// Nercon's misc options
+	KPner_liberation_mobileredeploy = ["MobileRedeploy",1] call bis_fnc_getParamValue;
+	KPner_liberation_mobilerearm = ["MobileRearm",1] call bis_fnc_getParamValue;
 } else {
 	GRLIB_difficulty_modifier = 2;
 	GRLIB_time_factor = 12;
