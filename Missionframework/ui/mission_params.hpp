@@ -208,6 +208,18 @@ class Params
 		texts[] = {$STR_PARAMS_DISABLED, 5, 10, 15, 20, 30, 60};
 		default = 900;
 	};
+	class MobileRedeploy {
+		title = $STR_PARAM_MOBILEREDEPLOY;
+		values[] = { 0,1 };
+		texts[] = {$STR_PARAMS_DISABLED, $STR_PARAMS_ENABLED};
+		default = 0;
+	};
+	class MobileRearm {
+		title = $STR_PARAM_MOBILEREARM;
+		values[] = { 0,1 };
+		texts[] = {$STR_PARAMS_DISABLED, $STR_PARAMS_ENABLED};
+		default = 0;
+	};
 	class MobileArsenal {
 		title = $STR_PARAMS_MOBILEARSENAL;
 		values[] = { 0, 1 };
